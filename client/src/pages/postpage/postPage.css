@@ -1,0 +1,30 @@
+.post-page {
+  margin-top: 100px;
+  background-color: rgb(224, 224, 224);
+  border: 2px solid black;
+  margin-bottom: 60px;
+}
+
+.post-author {
+  margin-top: 10px;
+}
+.time {
+  margin-bottom: 10px;
+}
+.postContent {
+  margin-top: 25px;
+}
+
+
+
+.image {
+  object-fit: cover;
+  display: flex;
+}
+h1 {
+  margin: 20px auto;
+}
+img {
+  max-width: 100%;
+  border: 2px solid black;
+}

@@ -1,0 +1,82 @@
+.logo {
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(191, 191, 191);
+  font-family: cursive;
+}
+.car { 
+  color: rgb(179, 179, 63);
+  font-family: 'Rubik Pixels', cursive;
+  font-weight:400;
+}
+.hcontainer {
+  height: 60px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111010;
+  z-index: 99999;
+
+}
+header {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.headerNav {
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+}
+
+.headerLink {
+  font-size: 15px;
+  color: rgb(211, 211, 211);
+  border-radius: 10px;
+  padding: 5px;
+  gap: 10px;
+}
+
+.headerLink:hover {
+  transition: 150ms all ;
+  border: 2px solid rgb(185, 185, 185);
+  border-radius: 15px;
+  background-color: rgb(106, 7, 7);
+  color: whitesmoke;
+}
+.headerButton {
+  font-size: 15px;
+  color: rgb(211, 211, 211);
+  border-radius: 10px;
+  padding: 5px;
+  gap: 10px;
+
+}
+.headerButton:hover {
+  transition: 150ms all ;
+  border: 2px solid rgb(185, 185, 185);
+  border-radius: 15px;
+  background-color:rgb(77, 77, 13);
+  color: whitesmoke;
+}
+.headerIcon {
+  color: white;
+}
+
+@media (max-width: 700px) {
+  .headerButton, .headerLink {
+    display:none;
+  }
+  .headerIcon {
+    display: flex;
+  }
+}
