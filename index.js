@@ -18,7 +18,7 @@ const secret = "kugtutihvuyruhgg";
  
 dotenv.config(); 
 
-app.use(cors({ credentials: true, origin: "https://64423d90e7bf0324e8549160--cool-empanada-e7d70a.netlify.app/" }));
+app.use(cors({ credentials: true, origin: "https://64423d90e7bf0324e8549160--cool-empanada-e7d70a.netlify.app" }));
 app.use(express.json());
 app.use(cookieParser());
 app.use("/uploads", express.static(__dirname + "/uploads"));  
